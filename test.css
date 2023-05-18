@@ -1,0 +1,965 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url(e7cb3bec-ec3e-4f29-98c4-42e9a30adf06.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% ; 
+     
+}
+header{
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+}
+.nn a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+.logo{
+    width:30px;
+    height: 40px;
+}
+i{
+    color: rgb(238, 90, 36);
+}
+
+.nn p{
+    text-decoration: none;
+    color: rgb(146, 140, 140);
+    font-family: open sans;
+    margin-left: 40px;
+    font-weight: lighter;
+    font-size: 11px;
+    display: inline-block;
+}
+.navo {
+    background-color: rgb(46, 102, 102);
+    width: 100%;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 17px 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -17px;
+}
+.navo a{
+    text-decoration: none;
+    color: rgb(238, 90, 36);
+    font-size: 15px;
+    font-family: playfair display roman;
+}
+.one{
+    background-color: rgb(46, 102, 102,.85);
+    width:520px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 420px;
+    text-align: center;
+    display: inline-block;
+}
+.first{
+    color: rgb(224, 86, 35);
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+    font-family: playfair display roman;
+}
+.img_1{
+    width: 1349.4px;
+}
+.second{
+    color: white;
+    font-family: open sans;
+}
+.bb{
+    background-color: rgb(224, 86, 35);
+    border: none;
+    color: white;
+    font-family: open sans;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    opacity: 1;
+}
+.two
+{
+    background-color: rgb(46, 102, 102,.85);
+    width:1348px;
+    height: 780px;
+    text-align: center;
+    display: inline-block;
+}
+.pf{
+    p class="pf">ABOUT US</p></b><br><br><br><p class="large">L</p>
+    <p class="pl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero blanditiis nihil architec<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero blanditiis nihil architec<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero blanditiis nihil architec<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero blanditiis nihil architec<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero blanditiis nihil architec<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero blanditiis nihil architec</p><br><br>
+}
+.large{
+    color: rgb(224, 86, 35);
+    position: relative;
+    top: 100px;
+    right: 380px;
+    font-size: 100px;
+    opacity: 0.4;
+    font-family: playfair display roman;
+}
+.pl{
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    position: relative;
+    right: 35px;
+    top: 30px;
+}
+.pf2{
+   float: right;
+   position: relative;
+   top: 200px;
+   right: 120px;
+   font-size: 40px;
+   color: rgb(224, 86, 35);
+   font-family: playfair display roman;
+
+}
+.small{
+    float: right;
+   position: relative;
+   top: 250px;
+    left: 340px;
+   font-size: 16px;
+   color: white;
+   font-family: open sans;
+}
+.am{
+    float: right;
+   position: relative;
+   top: 240px;
+   left: 40px;
+   font-size: 40px;
+   color: rgb(224, 86, 35);
+   font-family: playfair display roman;
+
+}
+.pff{
+    color: rgb(224, 86, 35);
+    position: relative;
+    top: 200px;
+    right:300px;
+    font-size: 35px;
+    font-family: playfair display roman;
+}
+.large2{
+    color: rgb(224, 86, 35);
+    position: relative;
+    top: 116px;
+    right: 430px;
+    font-size: 100px;
+    opacity: 0.4;
+    font-family: playfair display roman;
+}
+.pw{
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    position: relative;
+    right: 130px;
+    top: 50px;
+}
+.R{
+    background-color: rgb(224, 86, 35);
+    position: relative;
+    top: 160px;
+    left: 200px;
+    width: 400px;
+    height: 250px;
+    opacity:unset ;
+    border-radius: 6px;
+}
+.i{
+    position: relative;
+    bottom:30px;
+    left: 40px;
+    width: 400px;
+    height: 250px;
+  
+}
+.pll{
+   
+    color: white;
+    font-family: open sans;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+
+}
+.pff2{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    top: 200px;
+    right:350px;
+    font-size: 35px;
+}
+.pw2{
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    position: relative;
+    right: 180px;
+    top: 50px;
+}
+.large3{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    top: 116px;
+    right: 480px;
+    font-size: 100px;
+    opacity: 0.4;
+}
+.R2{
+    background-color: rgb(224, 86, 35);
+    position: relative;
+    bottom: 120px;
+    left: 950px;
+    width: 350px;
+    height: 350px;
+    opacity:unset ;
+}
+.ii{
+    position: relative;
+    bottom:30px;
+    right: 50px;
+    width: 350px;
+    height: 350px;
+}
+.first2{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 100px;
+    right: 370px;
+    font-size: 40px;
+}
+.large4{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    top: 20px;
+    float: left;
+    left: 170px;
+    font-size: 100px;
+    opacity: 0.4;
+}
+.large5{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 100px;
+    right: 470px;
+    float: right;
+    font-size: 100px;
+    opacity: 0.4;
+}
+.large6{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    top: 130px;
+    right: 400px;
+    float: right;
+    font-size: 100px;
+    opacity: 0.4;
+}
+.word1{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    top: 40px;
+    right: 350px;
+    font-size: 40px;
+}
+.word2{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 120px;
+    right: 200px;
+    float: right;
+    font-size: 40px;
+}
+.word3{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    top: 100px;
+    left: 2px;
+    float: right;
+    font-size: 40px;
+}
+.pw3{
+    color: white;
+    font-family: open sans;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    left: 160px;
+    top: 50px;
+    text-align: left;
+}
+.pw4{
+    color: white;
+    font-family: open sans;
+    font-size: 14px;
+    position: relative;
+    float: right;
+    left: 90px;
+    bottom: 100px;
+    text-align: left;
+}
+.pw5{
+    color: white;
+    font-family: open sans;
+    font-size: 14px;
+    position: relative;
+    float: right;
+    left: 500px;
+    top: 100px;
+    text-align: left;
+}
+.large7{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 310px;
+    float: left;
+    left: 170px;
+    font-size: 100px;
+    opacity: 0.4;
+}
+.word4{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 295px;
+    right: 350px;
+    font-size: 40px;
+}
+.pw6{
+    color: white;
+    font-family: open sans;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    left: 160px;
+    bottom: 300px;
+    text-align: left;
+}
+.pf3{
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 120px;
+    font-size: 40px;
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+ 
+ }
+ .small2{
+     float: right;
+    position: relative;
+    bottom: 30px;
+     left: 340px;
+    font-size: 16px;
+    color: white;
+    font-family: open sans;
+ }
+ .am1{
+    float: right;
+   position: relative;
+   bottom: 40px;
+   left: 40px;
+   font-size: 40px;
+   color: rgb(224, 86, 35);
+   font-family: playfair display roman;
+
+}
+.pff3{
+    color: rgb(224, 86, 35);
+    position: relative;
+    bottom: 400px;
+    right:350px;
+    font-size: 35px;
+    font-family: playfair display roman;
+}
+.large8{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 510px;
+    float: left;
+    left: 180px;
+    font-size: 100px;
+    opacity: 0.4;
+}
+.text{
+    float: left;
+    position: relative;
+    left: 160px;
+    bottom: 450px;
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+}
+.R3{
+    background-color: rgb(224, 86, 35);
+    position: relative;
+    right: 190px;
+    bottom: 490px;
+    width: 400px;
+    height: 400px;
+    float: right;
+
+}
+.iii{
+    position: relative;
+    bottom:30px;
+    right: 50px;
+    width: 400px;
+    height: 400px;
+}
+.iiii{
+    position: relative;
+    bottom:250px;
+    left: 90px;
+    width: 380px;
+    height: 460px;
+}
+.word5{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    right: 160px;
+    bottom: 250px;
+    text-align: left;
+    float: right;
+    font-size: 40px;
+}
+.text2{
+    float: right;
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+}
+.text3{
+    float: left;
+    position: relative;
+    left: 550px;
+    bottom: 490px;
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+}
+.word6{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    right: 400px;
+    bottom: 270px;
+    float: right;
+    font-size: 40px;
+}
+.box1{
+    background-color:rgb(224, 86, 35) ;
+    width: 79px;
+    height: 40px;
+    float: right;
+    position: relative;
+    right: 320px;
+    bottom:150px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: playfair display roman;
+   
+}
+.box2{
+    background-color:rgb(224, 86, 35) ;
+    width: 79px;
+    height: 40px;
+    float: right;
+    position: relative;
+    right: 240px;
+    bottom:60px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: playfair display roman;
+}
+.box3{
+    background-color:rgb(224, 86, 35);
+    width: 79px;
+    height: 40px;
+    float: right;
+    position: relative;
+    right: 163px;
+    top:30px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: playfair display roman;
+}
+.text4{
+    float: right;
+    position: relative;
+    left: 320px;
+    bottom: 150px;
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    text-align: left;
+}
+.text5{
+    float: right;
+    position: relative;
+    left: 710px;
+    bottom: 60px;
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    text-align: left;
+}
+.text6{
+    float: right;
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+    color: white;
+    font-family: open sans;
+    font-size: 17px;
+    text-align: left;
+}
+.logo2{
+    position: relative;
+    bottom:490px;
+    left: 40px;
+}
+.same{
+    position: relative;
+    bottom: 450px;
+}
+.divum{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: 280px;
+}
+.divum div{
+    background-image: url(images.png);
+    background-repeat: no-repeat; 
+    width: 230px;
+    height: 280px;
+   
+}
+.divum2{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: 310px;
+}
+.divum2 div{
+    width: 230px;
+    height: 300px;
+    color: rgb(255, 255, 255) ;
+    font-family: open sans;
+}
+.divum2 div hr{
+    color:rgb(146, 140, 140) ;
+    display: inline-block;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.divum2 div p{
+    color:rgb(224, 86, 35);
+    font-family: playfair display roman;
+    font-size: larger;
+}
+.divum2 div span{
+  color:rgb(172, 166, 166);
+  font-size: small;
+}
+.divum2 div i{
+    font-size: 24px;
+    margin: 6px;
+    border-radius: 5px;
+}
+.page{
+    font-size: 40px;
+    color: white;
+    font-family: open sans;
+    position: relative;
+    bottom: 300px;
+    font-family: playfair display roman;
+}
+.divum3{
+    width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: 280px;
+}
+.divum3 .div1{
+    background-image: url(fourth.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 270px;
+    height: 460px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 220px;
+    color: white;
+    font-family: open sans;
+    font-size: 24px;
+   
+}
+.divum3 .div2{
+    background-color:rgb(224, 86, 35) ;
+    width: 270px;
+    height: 460px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    font-family: open sans;
+    font-size: 19px;
+   
+}
+.divum3 .div3{
+    background-image: url(fifth.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 270px;
+    height: 460px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 220px;
+    color: white;
+    font-family: open sans;
+    font-size: 24px;
+}
+.spany{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+.tx{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    font-size: 46px;
+    font-family: playfair display roman;
+}
+
+.large9{
+    color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+   text-align: center;
+   bottom: 140px;
+   right: 350px;
+    font-size: 100px;
+    opacity: 0.4;
+    font-family: playfair display roman;
+}
+.tx2{
+    color: white;
+    font-family: open sans;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+    text-align: center;
+    font-size: 13px;
+}
+.tx3{
+    color: white;
+    position: relative;
+    bottom: 194px;
+    right: 250px;
+    text-align: center;
+    font-size: 13px;
+    font-family: open sans
+}
+.divum4{
+    width: 990px;
+    height: 600px;
+    margin: -10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 270px;
+    left: 30px;
+}
+.divum4 .div11{
+    width: 220px;
+    height: 540px;
+}
+.divum4 .div22{
+    width: 220px;
+    height: 540px;
+}
+.divum4 .div33{
+    width: 220px;
+    height: 500px;
+
+}
+.divum4 .div44{
+    width: 220px;
+    height: 500px;
+   
+}
+.divum4 .div55{
+    width: 220px;
+    height: 500px;
+
+}
+.divum4 .div66{
+    width: 220px;
+    height: 530px;
+}
+.two2
+{
+    background-color: rgb(46, 102, 102,.85);
+    width:1348px;
+    height: 900px;
+    text-align: center;
+    display: inline-block;
+}
+.tc{
+        color: rgb(224, 86, 35);
+        font-family: playfair display roman;
+        position: relative;
+        bottom: 240px;
+        right: 400px;
+        float: right;
+        text-align: center;
+        font-size: 46px;
+        font-family: playfair display roman;
+}
+.tc2{
+    color: white;
+    position: relative;
+    bottom: 170px;
+    float: right;
+    left: 70px;
+    text-align: left;
+    font-family: open sans;
+    font-size: 18px;
+}
+ form .input1 {
+    background-color: rgb(148, 142, 142);
+    position: relative;
+    left: 640px;
+    width: 280px;
+    height: 40px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 5000px;
+    font-family: open sans;
+}
+ form .input2 {
+    background-color: rgb(148, 142, 142);
+    position: relative;
+    left: 260px;
+    width: 560px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 5000px;
+    font-family: open sans;
+}
+form .input3 {
+    background-color: rgb(224, 86, 35);
+    font-family: playfair display roman;
+    position: relative;
+    left: 260px;
+    width: 560px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 5000px;
+    font-family: open sans;
+    color: white;
+    font-size: 15px;
+}
+ ::placeholder{
+    color: rgb(255, 255, 255,0.82);
+}
+.formim{
+    width: 580px;
+    float: left;
+    height: 580px;
+    position: relative;
+    left: 30px;
+    bottom: 550px;
+}
+.f{
+    background-color:rgb(224, 86, 35) ;
+    width: 100%;
+    height: 25px;
+}
+.ff{
+    background-color:rgb(255, 255, 255) ;
+    width: 100%;
+    height: 340px;
+}
+.f2{
+    background-color:rgb(224, 86, 35) ;
+    width: 100%;
+    height: 25px;
+}
+.lll{
+    display: inline-block;
+    width: 240px;
+    height: 290px;
+    position: relative;
+    left: 560px;
+    bottom: 20px;
+}
+.final{
+    background-color:rgb(46, 102, 102,.85) ;
+    width: 100%;
+    height: 560px;
+}
+.foter1{
+    color:rgb(224, 86, 35) ;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 180px;
+    font-family: playfair display roman;
+    font-size: 18px;
+}
+.pfoter{
+    float: left;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family: open sans;
+}
+.foter2{
+    color:rgb(224, 86, 35) ;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    right: 180px;
+    font-family: playfair display roman;
+    font-size: 18px;
+}
+.pfoter2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 80px;
+    right: 180px;
+    font-family: open sans;
+}
+.pfoter3{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 80px;
+    right: 37px;
+    font-family: open sans;
+}
+.foter3{
+    color:rgb(224, 86, 35) ;
+    float: right;
+    position: relative;
+    bottom: 148px;
+    right: 270px;
+    font-family: playfair display roman;
+    font-size: 18px;
+}
+.pfoter4{
+    float: right;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    right: 67px;
+    font-family: open sans;
+}
+.icoon{
+    float: right;
+    left: 80px;
+    position: relative;
+    font-size: 29px;
+    margin: 26px;
+    border-radius: 5px;
+}
+.ffff div{
+    background-color:rgb(224, 86, 35) ;
+    width: 100%;
+    height: 37px;
+    position: relative;
+    top: 250px;
+    float: right;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+    font-family: open sans;
+}
+#co{
+    position: relative;
+    bottom: 320px;
+}
